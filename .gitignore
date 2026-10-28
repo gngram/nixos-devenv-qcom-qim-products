@@ -1,0 +1,15 @@
+# Nix and direnv
+.direnv
+fhs-bin
+result
+result-*
+meta-qcom-qim-product-sdk/
+
+# Yocto workspace and builds
+workspace/
+build-*/
+shared-cache/
+tmp*/
+downloads/
+sstate-cache/
+*.log
